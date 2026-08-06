@@ -1,3 +1,130 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ─────────────────────────────────────────────────────────────────────────────
+// Coffee's Aero SMP — atmosphere layer
+//
+// The brief was "I like the wiki style" plus a fade of illumination, coffee and
+// blue, and some particles. So this is DELIBERATELY restrained: it adds depth
+// UNDER the content and never competes with it. A wiki is read, not admired —
+// the moment the background fights the paragraph text, it has failed.
+//
+// Pure CSS on two body pseudo-elements. No JS, no DOM changes, nothing that can
+// break on a Quartz upgrade.
+// ─────────────────────────────────────────────────────────────────────────────
+
+:root {
+  --aero-atmosphere: 1; // marker: lets a build be verified as picking this file up
+  --aero-coffee: 154, 96, 48;
+  --aero-blue: 63, 124, 166;
+}
+
+:root[saved-theme="dark"] {
+  --aero-coffee: 215, 154, 91;
+  --aero-blue: 95, 168, 211;
+}
+
+// ── Illumination ─────────────────────────────────────────────────────────────
+// Two enormous, very soft light sources — warm coffee low-left, cool blue
+// high-right — drifting slowly against each other. Large radii and single-digit
+// opacity mean you read it as "the page has depth", not as "there are circles".
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -25%;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(42rem 42rem at 18% 82%, rgba(var(--aero-coffee), 0.15), transparent 62%),
+    radial-gradient(38rem 38rem at 84% 12%, rgba(var(--aero-blue), 0.13), transparent 60%);
+  animation: aero-drift 46s ease-in-out infinite alternate;
+}
+
+@keyframes aero-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(2.5%, -2%, 0) scale(1.06);
+  }
+}
+
+// ── Particles ────────────────────────────────────────────────────────────────
+// Three layers of tiny motes rising at different speeds — the differing speeds
+// are what sell the parallax. Kept at 1–2px and low alpha so they read as dust
+// in a sunbeam, not as decoration demanding attention.
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image:
+    radial-gradient(circle, rgba(var(--aero-coffee), 0.5) 0 1.5px, transparent 1.6px),
+    radial-gradient(circle, rgba(var(--aero-blue), 0.42) 0 1.2px, transparent 1.3px),
+    radial-gradient(circle, rgba(var(--aero-coffee), 0.3) 0 1px, transparent 1.1px);
+  background-size:
+    220px 260px,
+    310px 340px,
+    170px 200px;
+  background-position:
+    0 0,
+    80px 40px,
+    30px 120px;
+  animation: aero-motes 90s linear infinite;
+}
+
+// Each layer travels a whole multiple of its own tile height (260×4, 340×4,
+// 200×4), so the loop is seamless — no visible jump when it restarts.
+@keyframes aero-motes {
+  to {
+    background-position:
+      0 -1040px,
+      80px -1320px,
+      30px -800px;
+  }
+}
+
+// ── Illuminated title ────────────────────────────────────────────────────────
+
+.page > h1,
+article > h1:first-of-type {
+  text-shadow: 0 0 28px rgba(var(--aero-coffee), 0.22);
+}
+
+// The home-page logo gets a matching halo so it sits in the same light.
+article img[src$="logo.png"] {
+  filter: drop-shadow(0 6px 22px rgba(var(--aero-blue), 0.35));
+}
+
+// ── Small refinements ────────────────────────────────────────────────────────
+
+article a:hover {
+  text-decoration-color: rgba(var(--aero-coffee), 0.85);
+}
+
+// Callouts feel lit from within rather than boxed off.
+.callout {
+  box-shadow: inset 0 0 40px rgba(var(--aero-coffee), 0.05);
+}
+
+// ── Accessibility ────────────────────────────────────────────────────────────
+// Anything that moves must stop for people who ask it to. Drifting motes are
+// exactly the kind of ambient motion that triggers vestibular symptoms.
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  body::after {
+    animation: none;
+  }
+}
+
+// On phones the motes cost paint time and add distraction more than atmosphere.
+// Keep the illumination, drop the particles.
+@media (max-width: 800px) {
+  body::after {
+    display: none;
+  }
+}
