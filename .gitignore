@@ -12,3 +12,6 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# internal editing notes that live in the vault but must never be published
+content/_*
