@@ -29,6 +29,13 @@ why ships need their own kind of protection, separate from land claims.
 If you see unfamiliar unnamed ships appearing, that's usually this happening to
 someone: each capture-and-replace cycle leaves an abandoned ship behind.
 
+> [!warning] Update 1.10.12 removed three control blocks
+> **The control stand, and the copycat control desk and stand** came with a
+> newer version of the airship control mod that has since been rolled back. Any
+> you had placed are **gone** — the rest of your ship is untouched.
+>
+> Rebuild with the older control blocks. Details in [[changelog]].
+
 ## Claiming
 
 Place a **claim block** on the ship. Each claim covers **250 ship blocks**, and
@@ -72,3 +79,10 @@ on solid ground.
 - **Claim before you fly off.** An unclaimed ship parked in the open is not protected
 - **Name it immediately** after claiming — you'll thank yourself when the claim
   list has six entries
+
+---
+
+## Fly it in VR
+
+You can take the helm with your actual hands — the whole server runs in VR and
+shares one world with desktop players. See [[vr]].

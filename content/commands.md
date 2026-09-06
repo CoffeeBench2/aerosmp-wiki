@@ -10,11 +10,14 @@ Cooldowns below are the live server settings. Staff are exempt from most of them
 
 | Command | What it does | Cooldown |
 |---|---|---|
-| `/spawn` | Back to world spawn | 3 hours |
+| `/spawn` | Back to world spawn | 1 minute |
 | `/home` | To your bed / respawn point | 5 minutes |
 | `/back` | Return to where you died | within 5 min of dying, then locked 10 min |
 | `/rtp` | Random teleport into the wilderness | 15 minutes |
 | `/tpa <player>` | Ask to teleport to someone | request expires in 60s |
+
+`/rtp` drops you between **1,500 and 10,000 blocks** out, which is far enough to
+be somewhere nobody has been and close enough to get home.
 
 ### About `/rtp`
 
@@ -52,12 +55,18 @@ You have **3 minutes** to log in before being kicked. Just reconnect if it happe
 | Command | What it does | Cooldown |
 |---|---|---|
 | `/daily` | Claim your daily streak reward | 20 hours |
+| `/vote` | Where to vote, and claim what you're owed | — |
 
 Wait more than double the cooldown and your streak resets, so claiming at roughly
 the same time each day keeps it alive. The reward is items and XP only — it never
 touches the economy.
 
 New players also get a one-time **300 spurs** on their first `/spawn`.
+
+Voting pays **2 spurs and 1 diamond** for your first vote, ramping to a cap of
+**10 spurs and 5 diamonds**, for your first **30 votes**. There's no streak to
+break, and rewards are banked if you vote while offline. Full detail in
+[[economy]].
 
 ## Discord
 

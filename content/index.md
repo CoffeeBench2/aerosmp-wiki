@@ -20,38 +20,57 @@ coffeeaerosmp.duckdns.org
 
 ---
 
-## Start here
+## The three things new players get wrong
+
+Read these even if you read nothing else. Each one costs hours.
+
+1. **Too much RAM.** Give it 5–8 GB. More causes crashes with *no crash report* — see [[performance]]
+2. **Building before claiming.** Unclaimed builds aren't protected — [[claims]]
+3. **Capturing a claimed ship.** It orphans the claim and abandons the ship — [[airships]]
+
+---
+
+## New here? Read in this order
+
+You can skip anything you already know, but this is the order that stops you
+losing work.
+
+| # | Page | Why now |
+|---|---|---|
+| 1 | **[[getting-started]]** | Install, RAM, first login, the lobby |
+| 2 | **[[create-basics]]** | Never played Create? The one idea it's built on |
+| 3 | **[[claims]]** | **Read before you build.** Two claim systems, and they protect different things |
+| 4 | **[[airships]]** | Building, claiming and flying the thing the server is named after |
+| 5 | **[[quests]]** | 43 chapters that give the sandbox a spine. Also the fastest way to learn the pack |
+
+---
+
+## Look it up
 
 | Page | What's in it |
 |---|---|
-| **[[getting-started]]** | Installing the pack, RAM, your first login |
-| **[[create-basics]]** | Never played Create? Start here |
-| **[[claims]]** | Protecting your builds and ships — **read before you build** |
-| **[[airships]]** | Building, claiming and flying |
 | **[[commands]]** | Every command, with real cooldowns |
+| **[[economy]]** | Spurs, trading, daily and vote rewards |
+| **[[progression]]** | Levels, playtime, the leaderboard, seasons |
+| **[[performance]]** | RAM, Potato mode, shaders, getting your FPS back |
+| **[[vr]]** | Yes, really. The whole server in VR |
 | **[[rules]]** | What gets you removed |
-| **[[faq]]** | Premium vs offline, "why 0 players", RAM, the End |
+| **[[faq]]** | Premium vs offline, "why 0 players", the End |
+| **[[changelog]]** | What changed in each update |
 | **[[status]]** | Live player count |
 
 ---
 
-## The short version
+## What this server is
 
-- The pack is built **entirely around Create** — every mod earns its place next
-  to a cogwheel
-- **Create: Aeronautics** airships are the centrepiece
+- Built **entirely around Create** — every mod earns its place next to a cogwheel
+- **Create: Aeronautics** airships are the centrepiece, with real physics
 - The world is **pre-generated**, so flying into new terrain doesn't stutter
+- **Premium and offline accounts** share one address and get the same features,
+  custom skins included
 - **The End is currently closed** — see [[faq]]
-- Claim your land, claim your ship, then go find somewhere nobody's been
 
----
-
-## The three things new players get wrong
-
-1. **Too much RAM.** Give it 5–8 GB. More causes crashes with no crash report
-2. **Building before claiming.** Unclaimed builds aren't protected — [[claims]]
-3. **Capturing a claimed ship.** It orphans the claim and abandons the ship —
-   [[airships]]
+Claim your land, claim your ship, then go find somewhere nobody's been.
 
 ---
 

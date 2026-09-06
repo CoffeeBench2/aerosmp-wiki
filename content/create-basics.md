@@ -68,3 +68,11 @@ capacity, not a broken build.
 
 **Ask.** The [Discord](https://discord.gg/AnFUh5vTz6) is full of people who have
 already made the mistake you're about to make.
+
+---
+
+## Want this as a guided path instead?
+
+The **[[quests]]** book walks the same ground in order, with rewards — 43
+chapters from your first log to your first airship. If you learn better by
+following a thread than by reading a page, start there.

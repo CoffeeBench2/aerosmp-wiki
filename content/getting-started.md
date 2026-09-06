@@ -41,6 +41,9 @@ error, this is almost always why. Come back down to 8 GB.
 | **5–8 GB** | **What you want** |
 | Over 10 GB | Native crashes with no crash report |
 
+If the pack still runs badly after this, **[[performance]]** has the rest —
+Potato mode, shaders, and getting your frame rate back.
+
 ## 3. Join
 
 Add the server:
@@ -67,6 +70,13 @@ grants a one-time starter payment of **300 spurs**.
 
 Read **[[claims]]**. Unclaimed builds are not protected, and there's one rule
 about ships that will cost you your claim if you get it wrong.
+
+## 6. Then what?
+
+- **New to Create?** [[create-basics]] — the one idea it's all built on
+- **Want direction?** [[quests]] — 43 chapters, and the fastest way to learn
+  what's actually in this pack
+- **Own a headset?** [[vr]] — the whole server, same world as everyone else
 
 ---
 

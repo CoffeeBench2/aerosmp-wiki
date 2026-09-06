@@ -29,6 +29,9 @@ loading with **no crash report**, the log just stops. That's the graphics driver
 and Distant Horizons being starved of memory outside the Java heap. If that
 happens to you, lower your allocation to 8 GB.
 
+Everything else about frame rate — Potato mode, shaders, Distant Horizons — is
+on **[[performance]]**.
+
 ## Why does the game take so long to load?
 
 It's a 200+ mod pack with heavy worldgen and Distant Horizons. First launch is
@@ -72,6 +75,24 @@ fight was. Don't combat log.
 
 Ask in **[Discord](https://discord.gg/AnFUh5vTz6)** with your coordinates. Staff
 can move you.
+
+## Can I play in VR?
+
+Yes, and it's already in the pack — nothing extra to install. VR and desktop
+players share the same world. See [[vr]].
+
+## Is there anything to actually do?
+
+There's a quest book with **43 chapters**, from your first log to your first
+airship. It's optional and nothing is withheld if you ignore it, but it's the
+quickest way to find out what this pack contains. See [[quests]].
+
+## Why did my level drop?
+
+Levels used to count advancements, and 86% of this pack's ~9,000 advancements
+complete on their own the moment you touch an ingredient — so playtime was
+worth about 2.5% of your level. Levels are now **pure playtime**. See
+[[progression]].
 
 ## How do I link my Discord?
 
