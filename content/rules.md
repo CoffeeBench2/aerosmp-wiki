@@ -65,7 +65,13 @@ allowance isn't allowed.
 Sharing an account is at your own risk — whatever happens on it is your
 responsibility.
 
-## 7. Lag and server health
+## 7. AFK
+
+Idle for **10 minutes** and the server sends you back to the lobby, and that time
+doesn't count toward your playtime or level. AFK machines and auto-clickers to dodge
+it count as cheating under rule 2.
+
+## 8. Lag and server health
 
 Enormous item-drop piles, runaway mob farms and giant always-on contraptions
 affect everyone. If staff ask you to shut something down or scale it back, do it.

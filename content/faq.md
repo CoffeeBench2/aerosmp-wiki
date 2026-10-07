@@ -6,7 +6,7 @@ title: FAQ
 
 ## Can I play without buying Minecraft?
 
-Yes. The server is **hybrid** — premium and offline (cracked) accounts both join
+Yes. The server is **hybrid** — premium and offline (non-premium) accounts both join
 at the same address, and offline players get the same features, including custom
 skins via `/skin`.
 
@@ -14,85 +14,78 @@ Offline players set a password on first join and use `/login` afterwards.
 
 ## The server list shows 0 players — is it dead?
 
-Usually it means **maintenance or an update**, not that nobody plays. We restart
-often to keep the pack current.
-
+Usually it means **maintenance or an update**, not that nobody plays.
 **Check [Discord](https://discord.gg/AnFUh5vTz6) for live status** — that's where
 restart and downtime notices go.
 
 ## How much RAM should I give it?
 
-**5–8 GB.** Do not go higher.
+**8 GB** for most people. If your PC has **32 GB or more**, 10–12 GB is fine and helps
+with Distant Horizons and big ships. Never give Minecraft more than about half your
+PC's memory — the graphics driver and Distant Horizons need memory outside it, and
+starving them crashes the game with **no crash report**. Details on **[[performance]]**.
 
-Over-allocating is a real failure mode, not a preference: the game dies during
-loading with **no crash report**, the log just stops. That's the graphics driver
-and Distant Horizons being starved of memory outside the Java heap. If that
-happens to you, lower your allocation to 8 GB.
+## Where's my starter kit?
 
-Everything else about frame rate — Potato mode, shaders, Distant Horizons — is
-on **[[performance]]**.
+In your **mailbox** — type `/mail`. Season 3 rewards don't drop into your inventory;
+they wait in the mail until you claim them. See [[economy]].
+
+## Why can't I /tpa, /rtp or /back?
+
+They're **switched off for Season 3** — it's a world to cross, not skip. `/spawn` and
+`/home` (to your bed) still work. See [[commands]].
 
 ## Why does the game take so long to load?
 
-It's a 200+ mod pack with heavy worldgen and Distant Horizons. First launch is
-the slowest; later ones are quicker.
+It's a 180+ mod pack with heavy worldgen and Distant Horizons. The first launch is the
+slowest; on Modrinth it's also when a few extra mods download — launch, close, and
+launch again. See [[getting-started]].
 
 ## Why can't I break my own blocks?
 
-Almost always a claim. Land claims are **full-height columns**, so you can be
-inside someone else's claim while flying well above their build. See [[claims]]
-for how to work through it.
+Almost always a claim. Land claims are **full-height columns**, so you can be inside
+someone else's claim while flying well above their build. See [[claims]].
 
-## Where's the End?
+## When can I go to the Nether? The End?
 
-**Currently closed.** Portals, waystones and teleports into it are all blocked.
-Ask in Discord if you want to know when it opens.
+**The Nether opens Wednesday 8 October at 18:30 IST** — 24 hours after launch.
+**The End is closed** for now. When it opens, the dragon's island can never be claimed.
 
-## Why do I have to stand still during `/rtp`?
+## How do levels work now?
 
-The server is preparing your destination before it moves you — that's what stops
-new terrain hitching for everyone else. Moving cancels it, but a cancelled
-teleport **doesn't** use up your cooldown.
-
-## My teleport said the world took too long
-
-The destination wasn't ready in time. Nothing was charged — just run it again.
+Advancements plus your **Season 3** playtime. Everyone started Season 3 at level 1,
+and each level gives you more land and a mailed reward. See [[progression]].
 
 ## Can I use my own mods?
 
 Client-side visual mods are usually fine. Anything giving an unfair advantage —
 x-ray, radar, cheat clients — gets you removed.
 
-Note the in-game updater manages the `mods` folder and removes older duplicate
-versions of pack mods, so keep any additions to things the pack doesn't already ship.
+The in-game updater manages the `mods` folder and removes older duplicate versions of
+pack mods, so keep any additions to things the pack doesn't already ship.
+
+## What happens when I die?
+
+Your items stay in a **corpse** where you died, so you can go back for them.
 
 ## Do I lose my stuff if I log out in combat?
 
-Yes. Disconnecting while combat-tagged kills you and drops your items where the
-fight was. Don't combat log.
+Yes. Disconnecting while combat-tagged kills you and drops your items where the fight
+was. Don't combat log.
+
+## Is there a quest book?
+
+Not in Season 3 at launch. If that changes it'll be announced in
+**[Discord](https://discord.gg/AnFUh5vTz6)**.
+
+## Can I play in VR?
+
+Not in Season 3 — VR support isn't part of the current pack.
 
 ## I'm stuck / fell somewhere I can't get out of
 
 Ask in **[Discord](https://discord.gg/AnFUh5vTz6)** with your coordinates. Staff
 can move you.
-
-## Can I play in VR?
-
-Yes, and it's already in the pack — nothing extra to install. VR and desktop
-players share the same world. See [[vr]].
-
-## Is there anything to actually do?
-
-There's a quest book with **43 chapters**, from your first log to your first
-airship. It's optional and nothing is withheld if you ignore it, but it's the
-quickest way to find out what this pack contains. See [[quests]].
-
-## Why did my level drop?
-
-Levels used to count advancements, and 86% of this pack's ~9,000 advancements
-complete on their own the moment you touch an ingredient — so playtime was
-worth about 2.5% of your level. Levels are now **pure playtime**. See
-[[progression]].
 
 ## How do I link my Discord?
 

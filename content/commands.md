@@ -4,31 +4,32 @@ title: Commands
 
 # Commands
 
-Cooldowns below are the live server settings. Staff are exempt from most of them.
+Cooldowns below are the live server settings.
 
 ## Getting around
 
+Season 3 has **no teleport shortcuts** — the world is for flying, riding and building
+across. These are the only two ways to jump:
+
 | Command | What it does | Cooldown |
 |---|---|---|
-| `/spawn` | Back to world spawn | 1 minute |
+| `/spawn` | Back to world spawn | — |
 | `/home` | To your bed / respawn point | 5 minutes |
-| `/back` | Return to where you died | within 5 min of dying, then locked 10 min |
-| `/rtp` | Random teleport into the wilderness | 15 minutes |
-| `/tpa <player>` | Ask to teleport to someone | request expires in 60s |
 
-`/rtp` drops you between **1,500 and 10,000 blocks** out, which is far enough to
-be somewhere nobody has been and close enough to get home.
+`/tpa`, `/rtp`, `/back` and warps are **switched off** for Season 3. Set your bed
+somewhere sensible, and build a railway or an airship.
 
-### About `/rtp`
+Neither works while you're **combat-tagged** — see below.
 
-**Stand perfectly still.** From the moment you type it until you arrive, moving
-cancels the teleport. This is deliberate — the server is preparing your
-destination and it needs you parked while it does.
+## Mail & rewards
 
-If someone else is already teleporting you'll be put in a queue with your
-position shown. Still stand still.
+| Command | What it does | Cooldown |
+|---|---|---|
+| `/mail` | Open your mailbox — starter kit, level, daily and vote rewards | — |
+| `/daily` | Claim your daily streak reward (Overworld only) | 20 hours |
+| `/vote` | The vote link, your streak and when you can vote next | — |
 
-Cancelled or timed-out teleports **don't** charge your cooldown.
+Full detail in [[economy]].
 
 ## Ships
 
@@ -44,29 +45,11 @@ See [[airships]] and [[claims]].
 
 | Command | What it does |
 |---|---|
+| `/register <password>` | Set your password on first join (offline players) |
 | `/login <password>` | Log in (offline players) |
-| `/register <password>` | Set your password on first join |
 | `/skin <name>` | Set your skin — **offline players can use this too** |
 
 You have **3 minutes** to log in before being kicked. Just reconnect if it happens.
-
-## Rewards
-
-| Command | What it does | Cooldown |
-|---|---|---|
-| `/daily` | Claim your daily streak reward | 20 hours |
-| `/vote` | Where to vote, and claim what you're owed | — |
-
-Wait more than double the cooldown and your streak resets, so claiming at roughly
-the same time each day keeps it alive. The reward is items and XP only — it never
-touches the economy.
-
-New players also get a one-time **300 spurs** on their first `/spawn`.
-
-Voting pays **2 spurs and 1 diamond** for your first vote, ramping to a cap of
-**10 spurs and 5 diamonds**, for your first **30 votes**. There's no streak to
-break, and rewards are banked if you vote while offline. Full detail in
-[[economy]].
 
 ## Discord
 
@@ -75,15 +58,19 @@ Run these in the server's Discord, not in-game:
 | Command | What it does |
 |---|---|
 | `/uptime` | How long the SMP has been running |
-| `/leaderboard` | Top 10 by playtime, or by longest-serving |
+| `/leaderboard` | Top 10 by playtime |
 | `/link <code>` | Link your Discord to your in-game account |
 
 ---
 
 ## Things worth knowing
 
-- **The End is currently closed.** Portals, waystones and teleports into it are
-  all blocked. See [[faq]]
-- **PvP is on** in claimed chunks by default
-- **Combat logging is punished** — disconnect while in combat and you die, with
-  your items dropping where the fight was
+- **The Nether opens 24 hours after launch** (Wednesday 8 October, 18:30 IST). Until
+  then portals won't take you there
+- **The End is closed**
+- **PvP is on**
+- **Combat logging is punished** — a hit tags you for **30 seconds**. Disconnect while
+  tagged and you die, with your items dropping where the fight was
+- **Idle for 10 minutes** and you're sent to the lobby — see [[progression]]
+- **Dropped items are cleared every 30 minutes**, with warnings in chat before it
+  happens. Named items are kept

@@ -4,74 +4,66 @@ title: What's Changed
 
 # What's Changed
 
-The full, always-current changelog lives **in the game**. Open the pack and the
-News screen on the title screen has a card for every release, and a What's New
-card pops once after each update.
+The full, always-current changelog lives **in the game**. The News screen on the title
+screen has a card for every release, and a What's New card pops once after each update.
 
-This page is the highlights — the changes that actually altered how you play,
-rather than every version number.
+This page is the highlights — the changes that actually alter how you play.
 
 ---
 
-## 1.10.12 — Aeroworks rollback
+## Season 3 — 3.0.2
 
-The newest airship control gear was causing trouble, so it's been rolled back to
-the version that behaved itself.
+- **Replay Viewer** button beside *Mods* on the main menu, for watching your recordings
+- **Spatial GUI** (inventories as a 3D panel) — switch it on or off from the Aero
+  Settings gear. It ships off
+- **Every reward arrives by mail** — `/daily`, votes, level rewards and your veteran
+  gift — with a chat message and a ping when it lands. A full inventory can't eat a
+  reward any more
+- **Ping as a number** in the tab list, measured live
 
-> [!warning] Three blocks were removed with it
-> **The control stand, and the copycat control desk and stand.** These only
-> existed in the newer version. If you had any placed, they are gone — the rest
-> of the build is untouched, but those blocks are not coming back.
->
-> Rebuild with the older control blocks. See [[airships]].
+## Season 3 — 3.0.0 / 3.0.1
 
-Nothing else in the pack moved.
+**A fresh world with a new spawn.** What's different from Season 2:
 
-## 1.10.11 — Quests, and updates that finish
+- **Levels** now come from **advancements + Season 3 playtime**, and everyone starts
+  at level 1. See [[progression]]
+- **Land claims grow with your level**: 5 chunks to start, +2 per level, up to 150.
+  See [[claims]]
+- **Your mailbox** (`/mail`) holds your **starter kit** (300 spurs, bread, saplings)
+  and every reward. See [[economy]]
+- **Vote streaks**: the vote reward grows each day in a row you vote
+- **No teleport shortcuts** — `/spawn` and `/home` only. `/tpa`, `/rtp`, `/back` and
+  warps are off. See [[commands]]
+- **The Nether opens 24 hours after launch**; the End is closed for now
+- **Your items stay in a corpse** when you die
+- **Custom skins and capes** for everyone, premium and offline
+- New worldgen and structures (Tectonic terrain, YUNG's structures), Macaw's building
+  blocks, Artifacts, Deeper Darker, and a reworked Create addon line-up
+- **Gone from Season 2:** VR, the quest book, Sophisticated Backpacks, Supplementaries
+  and a number of other mods
+- **RAM:** 8 GB is the sweet spot, and machines with room can go higher. See [[performance]]
 
-**The quest book landed** — 43 chapters, from your first log to your first
-airship, with Claim Blocks among the rewards. See [[quests]].
+> [!tip] Installed from Modrinth?
+> Launch once, let it finish at the title screen, close the game and launch again —
+> the first launch downloads a few mods Modrinth can't host.
 
-Also the fix behind a long-running complaint: **mods the pack removed sometimes
-stayed in your folder anyway**, and could stop you joining. The cleanup ran
-after the game closed and could silently fail, leaving no trace anyone would
-look for. It now works, and says so out loud when it doesn't.
+---
 
-Switching between **Normal and Potato mode** was affected by the same bug and
-also works now — see [[performance]].
+## Season 2 highlights
 
-## 1.10 — Head for the Skies
-
-The big one.
-
-- **VR.** The whole server, in VR, sharing the same world as desktop players.
-  See [[vr]]
-- **Drive-By-Wire** — take the helm and steer your ship from the cockpit
-- **Customizable Player Models**
-- A new Season 2 title screen, and much better distant terrain
-- **Potato mode**, for machines that were struggling
-
-Fixed in the same release: **your keybinds, video settings, shader choice and
-map waypoints now survive updates.** They used to be overwritten every time,
-which was as annoying as it sounds.
-
-## Earlier
-
-**The updater can update NeoForge**, which closed the failure where an update
-left you unable to launch at all.
-
-**Levels were rebuilt.** They used to count advancements, and this pack has
-nearly 9,000 of them — 86% auto-complete the moment you touch an ingredient. So
-a 30-hour player and a 130-hour player both sat around level 26. Levels are now
-**pure playtime**, which is why most levels dropped when it changed. See
-[[progression]].
+- **1.10 — Head for the Skies:** VR, Drive-By-Wire, Customizable Player Models, Potato
+  mode, and settings that survive updates
+- **1.10.11:** the Season 2 quest book; removed mods finally cleaned up properly
+- **1.10.12:** an airship control mod rolled back
+- **Levels** moved from advancements to pure playtime for Season 2 — and back to
+  advancements + playtime for Season 3
 
 ---
 
 ## Keeping up
 
-- **In game** — the News screen on the title screen, and the What's New card
-  after each update
+- **In game** — the News screen on the title screen, and the What's New card after
+  each update
 - **[Discord](https://discord.gg/AnFUh5vTz6)** — restart notices, downtime, and
   anything that needs saying before it happens
 - **[[status]]** — whether the server is up right now

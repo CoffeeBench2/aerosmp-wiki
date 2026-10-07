@@ -4,81 +4,79 @@ title: Levels & Progression
 
 # Levels & Progression
 
-Your level is on the sidebar, next to your playtime. It measures **one thing:
-hours actually played.** Not advancements, not kills, not wealth.
-
-That's deliberate, and it used to be otherwise — see [[changelog]] if you
-remember your level being much higher once.
+Your level is on the sidebar. In Season 3 it measures **what you've done this season**:
+the advancements you've earned and the time you've actually played.
 
 ---
 
 ## How the level is calculated
 
+You earn **XP** (level XP, not Minecraft's experience bar):
+
+- **10 XP** for every advancement
+- **6 XP** for every hour played **this season**
+
 ```
-Level = 1 + 2 × √(hours played)
+Level = 1 + √(XP ÷ 5)      (rounded down)
 ```
 
-Rounded down. Which means:
+| Level XP | Level | For example |
+|---|---|---|
+| 5 | 2 | your first advancement |
+| 80 | 5 | 6 advancements and 3½ hours |
+| 405 | 10 | 30 advancements and 18 hours |
+| 1,805 | 20 | 120 advancements and 100 hours |
 
-| Hours played | Level |
-|---|---|
-| 1 | 3 |
-| 20 | 10 |
-| 50 | 15 |
-| 144 | 25 |
-| 600 | 50 |
+Playtime from earlier seasons doesn't count — everyone starts Season 3 at level 1.
+The sidebar's **Playtime** row shows your Season 3 time.
 
-The curve flattens on purpose. Early hours move you quickly, and a very high
-level means somebody has genuinely lived here — it can't be rushed in a weekend
-and it can't be bought.
+## What levels give you
 
-> [!note] Your level is not power
-> It unlocks nothing and grants no advantage. It is a record of time spent, and
-> that's all it's meant to be.
+**More land.** You start with **5 claimable chunks**, and every level adds **2 more**,
+up to **150**. Level 10 means 23 chunks; level 20 means 43. See [[claims]].
+
+**A reward for every level**, delivered to your **mailbox** (`/mail`) with a ping
+when it arrives. Every **5th level** is a milestone and comes with bonus items —
+**4 diamonds and 16 bottles o' enchanting**.
+
+> [!note] Levels don't give spurs
+> The only ways to earn spurs from the server itself are your starter kit and voting.
+> The rest of the economy is between players. See [[economy]].
 
 ## AFK time doesn't count
 
-Idle for **5 minutes** and you're marked AFK; that time stops counting toward
-playtime and your level. Come back and it resumes immediately.
+Idle for **10 minutes** and you're marked AFK: that time stops counting toward your
+playtime, and you're sent back to the lobby. Come back and press Join to carry on.
 
-This is why a level can look lower than a play session felt. Standing in a base
-while a farm runs is not playing, and an AFK jiggler won't beat it either — the
-tracker takes the idle stretch back out of your total rather than just pausing.
-
-Boats, minecarts and horses are handled: you're not marked AFK while riding one.
+Standing in a base while a farm runs isn't playing, and an AFK jiggler won't beat it.
 
 ## Playtime and the leaderboard
 
-`/leaderboard` in **Discord** ranks the top 10 by playtime. Since levels are
-playtime, the two now agree — which they historically didn't.
-
-Link your account with `/link` to appear on it. Unlinked players are never
-mentioned by the bot.
-
-<!-- IMAGE SLOT: screenshot of the in-game sidebar showing level and playtime -->
+`/leaderboard` in **Discord** ranks the top 10 by playtime. Link your account with
+`/link` to appear on it — unlinked players are never mentioned by the bot.
 
 ## Seasons
 
-The server runs in **seasons**. A new season resets the world so everyone starts
-on fresh terrain together, rather than arriving to a map where the good spots
-went years ago.
+The server runs in **seasons**. A new season resets the world so everyone starts on
+fresh terrain together.
 
 What carries across a season boundary:
 
 - **Your account, password and skin** — you don't re-register
-- **Your total playtime and veteran status.** Time served is never wiped
-- **Season 1 veterans were paid out** at the Season 2 rollover, scaled by hours
+- **Your lifetime playtime** and veteran status. Time served is never wiped
+- **Season 1 veterans** who never collected their thank-you reward got it in their
+  Season 3 mailbox — scaled by Season 1 hours
 
-What doesn't: your builds, your items and your claims. Those belong to the world
-that ended.
+What doesn't: your builds, your items, your claims and your level. Those belong to
+the world that ended.
 
-We're currently in **Season 2**. Season endings are announced well ahead in
+We're now in **Season 3**. Season endings are announced well ahead in
 **[Discord](https://discord.gg/AnFUh5vTz6)** — nobody gets surprised by one.
 
 ---
 
 ## Related
 
-- [[economy]] — daily and vote rewards
-- [[commands]] — `/profile` and the Discord commands
-- [[faq]] — linking Discord
+- [[economy]] — mail, daily and vote rewards
+- [[claims]] — what your extra chunks are for
+- [[commands]] — `/mail`, `/daily`, `/vote` and the rest

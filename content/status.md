@@ -89,5 +89,6 @@ If it lasts, there'll be a notice in Discord explaining why.
 1. Check the status above — if it says Offline, wait for the restart
 2. Make sure you're on the current pack version. If you have the Aero Core
    installed you'll be prompted from the main menu; see [[getting-started]]
-3. Check your RAM allocation is **5–8 GB**, not more — see [[faq]]
+3. Check your RAM allocation — **8 GB** is the sweet spot, more only if your PC has
+   room — see [[performance]]
 4. Still stuck? Ask in [Discord](https://discord.gg/AnFUh5vTz6)

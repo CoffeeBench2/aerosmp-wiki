@@ -15,6 +15,8 @@ Build it on the ground first, as a normal structure, then assemble it. Once
 assembled it becomes its own little world that moves independently — which is
 why ships need their own kind of protection, separate from land claims.
 
+**Drive-By-Wire** is in the pack, so you can steer your ship from the cockpit.
+
 ## The order that matters
 
 > [!warning] Place → claim → name
@@ -29,18 +31,12 @@ why ships need their own kind of protection, separate from land claims.
 If you see unfamiliar unnamed ships appearing, that's usually this happening to
 someone: each capture-and-replace cycle leaves an abandoned ship behind.
 
-> [!warning] Update 1.10.12 removed three control blocks
-> **The control stand, and the copycat control desk and stand** came with a
-> newer version of the airship control mod that has since been rolled back. Any
-> you had placed are **gone** — the rest of your ship is untouched.
->
-> Rebuild with the older control blocks. Details in [[changelog]].
-
 ## Claiming
 
 Place a **claim block** on the ship. Each claim covers **250 ship blocks**, and
 each one spends a chunk from your FTB Chunks allowance — so a large ship costs
-several. Details in [[claims]].
+several. You start Season 3 with 5 chunks and gain 2 per level, so plan your first
+ship's size around that. Details in [[claims]].
 
 ## Naming
 
@@ -48,9 +44,8 @@ several. Details in [[claims]].
 /shipname <name>
 ```
 
-Stand on the ship and run it. Until you do, every ship in the claim list just
-reads `ship`, which gets confusing fast once you own more than one. The name
-shows up on the claim screen straight away.
+Stand on the ship and run it. Until you do, every ship in the claim list just reads
+`ship`, which gets confusing fast once you own more than one.
 
 ---
 
@@ -63,12 +58,10 @@ your own ship while you're there.
 This surprises everyone the first time. It isn't your ship being broken — it's
 whose airspace you're in. Move off the claim and try again.
 
-## Waystones on ships
+## Getting around
 
-Don't put a waystone on an assembled ship. Ship blocks don't live where they
-appear to, and warping to one used to take the whole server down. The server now
-blocks that teleport and tells you why, but the safe answer is to keep waystones
-on solid ground.
+There are **no teleport commands** in Season 3 beyond `/spawn` and `/home` — which
+makes your ship your real way to travel. A good ship is worth more than ever.
 
 ---
 
@@ -79,10 +72,3 @@ on solid ground.
 - **Claim before you fly off.** An unclaimed ship parked in the open is not protected
 - **Name it immediately** after claiming — you'll thank yourself when the claim
   list has six entries
-
----
-
-## Fly it in VR
-
-You can take the helm with your actual hands — the whole server runs in VR and
-shares one world with desktop players. See [[vr]].

@@ -18,22 +18,25 @@ coffeeaerosmp.duckdns.org
 
 **[Live server status →](status)** · **[Join the Discord →](https://discord.gg/AnFUh5vTz6)**
 
+> [!success] Season 3 is here
+> A fresh world with a new spawn, opening **Tuesday 7 October 2026 at 18:30 IST**.
+> Levels now come from advancements and your Season 3 playtime, land claims grow as
+> you level, and every reward arrives in your **mailbox** (`/mail`). See [[changelog]].
+
 ---
 
 ## The three things new players get wrong
 
 Read these even if you read nothing else. Each one costs hours.
 
-1. **Too much RAM.** Give it 5–8 GB. More causes crashes with *no crash report* — see [[performance]]
-2. **Building before claiming.** Unclaimed builds aren't protected — [[claims]]
-3. **Capturing a claimed ship.** It orphans the claim and abandons the ship — [[airships]]
+1. **Building before claiming.** Unclaimed builds aren't protected — [[claims]]
+2. **Capturing a claimed ship.** It orphans the claim and abandons the ship — [[airships]]
+3. **Not opening your mail.** Your starter kit, level rewards, daily and vote rewards
+   all land in `/mail` — nothing drops into your inventory by itself. See [[economy]]
 
 ---
 
 ## New here? Read in this order
-
-You can skip anything you already know, but this is the order that stops you
-losing work.
 
 | # | Page | Why now |
 |---|---|---|
@@ -41,7 +44,7 @@ losing work.
 | 2 | **[[create-basics]]** | Never played Create? The one idea it's built on |
 | 3 | **[[claims]]** | **Read before you build.** Two claim systems, and they protect different things |
 | 4 | **[[airships]]** | Building, claiming and flying the thing the server is named after |
-| 5 | **[[quests]]** | 43 chapters that give the sandbox a spine. Also the fastest way to learn the pack |
+| 5 | **[[progression]]** | How levels work in Season 3, and what they unlock |
 
 ---
 
@@ -50,12 +53,11 @@ losing work.
 | Page | What's in it |
 |---|---|
 | **[[commands]]** | Every command, with real cooldowns |
-| **[[economy]]** | Spurs, trading, daily and vote rewards |
-| **[[progression]]** | Levels, playtime, the leaderboard, seasons |
+| **[[economy]]** | Spurs, mail, daily and vote rewards |
+| **[[progression]]** | Levels, claims per level, playtime, seasons |
 | **[[performance]]** | RAM, Potato mode, shaders, getting your FPS back |
-| **[[vr]]** | Yes, really. The whole server in VR |
 | **[[rules]]** | What gets you removed |
-| **[[faq]]** | Premium vs offline, "why 0 players", the End |
+| **[[faq]]** | Premium vs offline, "why 0 players", the Nether and the End |
 | **[[changelog]]** | What changed in each update |
 | **[[status]]** | Live player count |
 
@@ -68,7 +70,9 @@ losing work.
 - The world is **pre-generated**, so flying into new terrain doesn't stutter
 - **Premium and offline accounts** share one address and get the same features,
   custom skins included
-- **The End is currently closed** — see [[faq]]
+- **No teleport shortcuts in Season 3** — `/spawn` and `/home` only. You fly, ride or
+  build your way around
+- **The Nether opens 24 hours after launch; the End is closed** — see [[faq]]
 
 Claim your land, claim your ship, then go find somewhere nobody's been.
 

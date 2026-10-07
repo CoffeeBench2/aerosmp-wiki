@@ -10,7 +10,7 @@ systems** and they protect different things.
 | System | Protects | Currency |
 |---|---|---|
 | **FTB Chunks** | land — chunks in the world | your chunk allowance |
-| **AeroClaims** | ships — the blocks on a sub-level | spends FTB Chunks claims |
+| **AeroClaims** | ships — the blocks on an airship | spends FTB Chunks claims |
 
 You need both. Claiming land does **not** protect a ship, and claiming a ship
 does **not** protect the ground under it.
@@ -21,7 +21,8 @@ does **not** protect the ground under it.
 
 Open the map with **`M`** and click chunks to claim them.
 
-- You get **500 chunks** to spend
+- You start with **5 chunks**, and gain **2 more every level**, up to **150** —
+  see [[progression]]. Pick your first five carefully
 - Claims are **full-height columns** — from bedrock to sky. There is no such
   thing as claiming "just the surface"
 
@@ -34,9 +35,14 @@ Open the map with **`M`** and click chunks to claim them.
 
 You can form a party so friends can build with you.
 
-**Everyone brings their own allowance.** Joining a team doesn't mean sharing one
-person's 500 chunks — each member's allowance adds to the team pool, and
-everything the team claims is usable by everyone in it.
+**Everyone brings their own allowance.** Each member's chunks add to the team's
+pool, and everything the team claims is usable by everyone in it. If someone leaves
+the team, the pool shrinks with them.
+
+### The End
+
+When the End opens, its central island — the dragon's arena — **can never be
+claimed**. The rest of the End can.
 
 ---
 
@@ -45,7 +51,8 @@ everything the team claims is usable by everyone in it.
 Ships are protected separately, with a **claim block** placed on the ship.
 
 Each claim covers **250 ship blocks**. Bigger ship, more claims — and each one
-spends a chunk from your FTB Chunks allowance.
+spends a chunk from your FTB Chunks allowance. With only 5 chunks at the start,
+a big ship early on means less land; levelling up fixes that.
 
 > [!warning] The rule that costs people their ships
 > **Place → claim → name.** In that order.
@@ -55,6 +62,9 @@ spends a chunk from your FTB Chunks allowance.
 > orphans the claim — the ship is now unprotected and the old claim is wasted.
 >
 > **Don't capture a ship you've already claimed.**
+
+Claimed ships are protected from explosions and from other people's kinetic
+contraptions, as well as from block breaking.
 
 ### Naming your ship
 

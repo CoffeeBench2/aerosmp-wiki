@@ -57,22 +57,22 @@ you the controls without risking hours of work.
 
 ## Things that trip up new players here
 
-**Claim before you build.** See [[claims]]. Unclaimed builds aren't protected,
-and land claims are full-height columns — so someone's claim above you affects
-you too.
+**Claim before you build.** See [[claims]]. Unclaimed builds aren't protected, you
+start with only 5 chunks, and land claims are full-height columns — so someone's
+claim above you affects you too.
 
 **Stress before speed.** Almost every "it stopped working" is insufficient stress
 capacity, not a broken build.
 
-**Give the game 5–8 GB of RAM.** More is worse, not better — see [[faq]].
+**Give the game about 8 GB of RAM** — more only if your PC has room to spare. See [[performance]].
 
 **Ask.** The [Discord](https://discord.gg/AnFUh5vTz6) is full of people who have
 already made the mistake you're about to make.
 
 ---
 
-## Want this as a guided path instead?
+## Want a thread to follow?
 
-The **[[quests]]** book walks the same ground in order, with rewards — 43
-chapters from your first log to your first airship. If you learn better by
-following a thread than by reading a page, start there.
+Advancements count toward your level in Season 3, and every level gives you more land
+and a reward in your mailbox — so working through the advancement tree is a guided path
+of its own. See [[progression]].
