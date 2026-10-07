@@ -45,6 +45,28 @@ Live, straight from the server. This updates every 30 seconds while the page is 
 })();
 </script>
 
+> [!success] Season 3 opens Tuesday 7 October 2026, 18:30 IST
+> A fresh world with a new spawn. Until the doors open the server shows as online but
+> **whitelisted** — that's the final testing, not a problem on your side.
+> Premium and offline (non-premium) accounts can both join, through the same address.
+
+## Season 3 at a glance
+
+| | |
+|---|---|
+| **Pack version** | **3.0.2** — older 3.0.x installs update themselves from the title screen |
+| **Join address** | `coffeeaerosmp.duckdns.org` (or the **Join** button in the pack's main menu) |
+| **The Nether** | Opens **Wednesday 8 October, 18:30 IST** — 24 hours after launch |
+| **The End** | Locked for now. When it opens, the dragon island can never be claimed |
+| **Land claims** | 5 chunks to start, +2 for every level you reach |
+| **Levels** | Earned from advancements and your **Season 3** playtime |
+| **Mail** | Your starter kit is waiting in `/mail`. Daily, vote and level rewards arrive there too |
+
+> [!tip] Installed from Modrinth?
+> On the very first launch the pack downloads a few extra mods (FTB and friends).
+> Launch once, let it finish at the title screen, **close the game, then launch again** —
+> after that you can join normally.
+
 > [!warning] Showing 0 players, or offline?
 > That usually means **maintenance or an update**, not a dead server. We restart
 > often to keep the pack current.
