@@ -32,7 +32,7 @@ This page is the highlights — the changes that actually alter how you play.
 - **Your mailbox** (`/mail`) holds your **starter kit** (300 spurs, bread, saplings)
   and every reward. See [[economy]]
 - **Vote streaks**: the vote reward grows each day in a row you vote
-- **No teleport shortcuts** — `/spawn` and `/home` only. `/tpa`, `/rtp`, `/back` and
+- **Minimal teleporting** — `/spawn`, `/home` and `/rtp` only. `/tpa`, `/back` and
   warps are off. See [[commands]]
 - **The Nether opens 24 hours after launch**; the End is closed for now
 - **Your items stay in a corpse** when you die

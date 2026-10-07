@@ -8,18 +8,29 @@ Cooldowns below are the live server settings.
 
 ## Getting around
 
-Season 3 has **no teleport shortcuts** — the world is for flying, riding and building
-across. These are the only two ways to jump:
+Season 3 keeps teleporting to a minimum — the world is for flying, riding and building
+across. These are the three ways to jump:
 
 | Command | What it does | Cooldown |
 |---|---|---|
 | `/spawn` | Back to world spawn | — |
 | `/home` | To your bed / respawn point | 5 minutes |
+| `/rtp` | Random teleport into the wilderness (Overworld only) | 15 minutes |
 
-`/tpa`, `/rtp`, `/back` and warps are **switched off** for Season 3. Set your bed
-somewhere sensible, and build a railway or an airship.
+`/tpa`, `/back` and warps are **switched off** for Season 3 — you can't teleport to
+other players. Set your bed somewhere sensible, and build a railway or an airship.
 
-Neither works while you're **combat-tagged** — see below.
+None of these work while you're **combat-tagged** — see below.
+
+### About `/rtp`
+
+It drops you between **1,500 and 10,000 blocks** out — far enough to be somewhere
+nobody has been, close enough to get home.
+
+**Stand perfectly still** from the moment you type it until you arrive. The server is
+preparing your destination and needs you parked while it does; moving cancels it. If
+someone else is already teleporting you'll be queued, with your position shown — still
+stand still. A cancelled or timed-out teleport **doesn't** use up your cooldown.
 
 ## Mail & rewards
 

@@ -30,10 +30,17 @@ starving them crashes the game with **no crash report**. Details on **[[performa
 In your **mailbox** — type `/mail`. Season 3 rewards don't drop into your inventory;
 they wait in the mail until you claim them. See [[economy]].
 
-## Why can't I /tpa, /rtp or /back?
+## Why can't I /tpa or /back?
 
-They're **switched off for Season 3** — it's a world to cross, not skip. `/spawn` and
-`/home` (to your bed) still work. See [[commands]].
+They're **switched off for Season 3** — it's a world to cross, not skip. `/spawn`,
+`/home` (to your bed) and `/rtp` (random wilderness teleport, every 15 minutes) still
+work. See [[commands]].
+
+## Why do I have to stand still during `/rtp`?
+
+The server is preparing your destination before it moves you — that's what stops new
+terrain hitching for everyone else. Moving cancels it, but a cancelled teleport
+**doesn't** use up your cooldown.
 
 ## Why does the game take so long to load?
 
