@@ -11,6 +11,21 @@ This page is the highlights — the changes that actually alter how you play.
 
 ---
 
+## Server update — 12 October 2026
+
+No new download needed; these are server-side.
+
+- **`/back` is back**: return to where you died (or last teleported from) within 5
+  minutes, every 3 minutes. You arrive as a ghost for up to 60 seconds so you can get
+  your things back safely. See [[commands]]
+- **`/ticket <message>`**: send staff a ticket with your location, up to 2 a day.
+  Replies arrive by mail
+- **Ask CoffeeBot**: mention the bot in Discord with a question and it answers
+- **Smoother server**: lighter networking, less background CPU from map rendering and
+  distant terrain, and a fix for stale projectiles piling up
+- **Recipes**: sequenced assembly works again; one recipe per input for obsidian
+  haunting and glass washing
+
 ## Season 3 — 3.0.2
 
 - **Replay Viewer** button beside *Mods* on the main menu, for watching your recordings

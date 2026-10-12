@@ -53,7 +53,8 @@ No port needed.
 
 You'll arrive in the **lobby** before you reach the world.
 
-- **Offline (non-premium) players** register a password on first join and use
+- **Offline (non-premium) players** register a password on first join with
+  `/register <password> <password>` (the same password twice) and use
   `/login <password>` afterwards. You have **3 minutes** to log in before you're
   kicked — just reconnect if that happens.
 - **Premium players** are verified automatically.

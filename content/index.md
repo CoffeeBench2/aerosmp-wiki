@@ -70,7 +70,7 @@ Read these even if you read nothing else. Each one costs hours.
 - The world is **pre-generated**, so flying into new terrain doesn't stutter
 - **Premium and offline accounts** share one address and get the same features,
   custom skins included
-- **Minimal teleporting in Season 3** — `/spawn`, `/home` and `/rtp` only, no `/tpa`.
+- **Minimal teleporting in Season 3** — `/spawn`, `/home`, `/rtp` and `/back`, no `/tpa`.
   You fly, ride or build your way around
 - **The Nether opens 24 hours after launch; the End is closed** — see [[faq]]
 

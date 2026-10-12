@@ -60,8 +60,8 @@ whose airspace you're in. Move off the claim and try again.
 
 ## Getting around
 
-Season 3 has only `/spawn`, `/home` and `/rtp` — no teleporting to other players or
-back to where you were. That makes your ship your real way to travel. A good ship is
+Season 3 has only `/spawn`, `/home`, `/rtp` and `/back` (to where you died) — no
+teleporting to other players. That makes your ship your real way to travel. A good ship is
 worth more than ever.
 
 ---

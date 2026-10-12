@@ -10,7 +10,8 @@ Yes. The server is **hybrid** — premium and offline (non-premium) accounts bot
 at the same address, and offline players get the same features, including custom
 skins via `/skin`.
 
-Offline players set a password on first join and use `/login` afterwards.
+Offline players set a password on first join with `/register <password> <password>`
+(the same password twice) and use `/login <password>` afterwards.
 
 ## The server list shows 0 players — is it dead?
 
@@ -30,11 +31,11 @@ starving them crashes the game with **no crash report**. Details on **[[performa
 In your **mailbox** — type `/mail`. Season 3 rewards don't drop into your inventory;
 they wait in the mail until you claim them. See [[economy]].
 
-## Why can't I /tpa or /back?
+## Why can't I /tpa?
 
-They're **switched off for Season 3** — it's a world to cross, not skip. `/spawn`,
-`/home` (to your bed) and `/rtp` (random wilderness teleport, every 15 minutes) still
-work. See [[commands]].
+It's **switched off for Season 3** — it's a world to cross, not skip. `/spawn`,
+`/home` (to your bed), `/rtp` (random wilderness teleport, every 15 minutes) and
+`/back` (to where you died, every 3 minutes) work. See [[commands]].
 
 ## Why do I have to stand still during `/rtp`?
 
@@ -73,7 +74,9 @@ pack mods, so keep any additions to things the pack doesn't already ship.
 
 ## What happens when I die?
 
-Your items stay in a **corpse** where you died, so you can go back for them.
+Your items stay in a **corpse** where you died, so you can go back for them. `/back`
+takes you there (every 3 minutes), and you arrive as a ghost so nothing can hurt you
+while you collect your things.
 
 ## Do I lose my stuff if I log out in combat?
 
