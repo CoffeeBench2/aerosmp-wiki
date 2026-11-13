@@ -39,8 +39,7 @@ your cache.
 Every song on the radio is free to share: CC0, Creative Commons Attribution (CC BY), or
 public domain. The artists include HoliznaCC0, Kevin MacLeod (incompetech.com), the US Air
 Force and Navy bands, and many Free Music Archive artists. Songs were converted to mono
-and loudness-normalised for the radio. Ask staff for the full credits list with every
-track, artist, licence and link.
+and loudness-normalised for the radio. **[Full credits: every track, artist, licence and link →](radio-credits)**
 
 Requests have to follow the same rule, so commercial songs can't be added.
 
