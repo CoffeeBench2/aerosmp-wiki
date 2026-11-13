@@ -11,6 +11,26 @@ This page is the highlights — the changes that actually alter how you play.
 
 ---
 
+## 3.3.0 — 13 November 2026
+
+- **[[radio|Aero Radio]] is live**: radios and portable radios with five stations,
+  Lofi Lounge 88.8, Christmas FM 90.1, Skyline Mall 92.5, Chill Pop 95.5 and Aero FM 100.0
+  for song requests. Everyone on a station hears the same moment of the same song
+- **Create: Mechanical Botany**
+- **A better updater**: faster parallel downloads, resumes where it stopped, and the
+  update screen explains what will happen
+
+## 3.2.1 — 12 November 2026
+
+- **Let it Walk!**
+
+## 3.2.0 — 12 November 2026
+
+- **Create Deep Seas**: submarines and new ocean depths
+- **Create: Gears and Tavern**
+- **Cool Rain** (nicer rain, also on ships) and a **Weather Glass** to forecast it
+- **Discord status**: your Discord profile shows you're playing on the server
+
 ## Server update — 12 October 2026
 
 No new download needed; these are server-side.

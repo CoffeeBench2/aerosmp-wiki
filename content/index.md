@@ -18,10 +18,10 @@ coffeeaerosmp.duckdns.org
 
 **[Live server status →](status)** · **[Join the Discord →](https://discord.gg/AnFUh5vTz6)**
 
-> [!success] Season 3 is here
-> A fresh world with a new spawn, opening **Tuesday 7 October 2026 at 18:30 IST**.
-> Levels now come from advancements and your Season 3 playtime, land claims grow as
-> you level, and every reward arrives in your **mailbox** (`/mail`). See [[changelog]].
+> [!success] New in 3.3.0: Aero Radio
+> Radios are live with five stations: Lofi, Christmas, Mall, Chill Pop and song requests.
+> Everyone on a station hears the same song at the same moment. See [[radio]] and
+> [[changelog]]. Restart your game to update.
 
 ---
 
